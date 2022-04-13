@@ -1,8 +1,8 @@
-# ✅ [Completed] NFT Minter Tutorial
+# Enterprise NFT Minter
 
-This project contains the COMPLETED files for [Alchemy's NFT Minter tutorial](https://docs.alchemyapi.io/alchemy/tutorials/nft-minter), in which we teach you how to connect your smart contract to your React dApp project by building an NFT Minter using Metamask and Web3. It is best used as a reference.
+This project is built using react, metamask, and web3. The intent is to mint NFT tokens for any given image.
 
-# 🪜 Installation
+# Installation
 To use this minter, you'll need to do the following:
 
 1. Run `npm install` to download the `node_modules` folder.
