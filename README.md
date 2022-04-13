@@ -1,10 +1,12 @@
 # Enterprise NFT Minter
 
-This project is built using react, metamask, and web3. The intent is to mint NFT tokens for any given image.
+This project is built using react, metamask, and alchemy web3 apis. The intent is to mint NFT tokens for any given image.
+
+I use pinata to store the images and metadata file. But any ipfs provider can be used.
 
 # Installation
 To use this minter, you'll need to do the following:
-
+0. Use NVM and Node version 16.14
 1. Run `npm install` to download the `node_modules` folder.
 2. Download the [dotenv package](https://www.npmjs.com/package/dotenv) in your project directory by running `npm install dotenv --save` in your terminal
 3. Create a `.env` file in the root directory this `nft-minter` by entering the following on your command line: `vim .env` and then add your [Alchemy API Key](https://docs.alchemyapi.io/alchemy/tutorials/nft-minter#create-your-alchemy-api-key) and [Pinata Key and Secret](https://pinata.cloud/keys). Altogether, your `.env` file should look like so:
